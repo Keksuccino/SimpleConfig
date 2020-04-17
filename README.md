@@ -1,5 +1,5 @@
 # SimpleConfig
-Simple config system for Java to locally store values resource- and user-friendly.
+Config system for Java to locally store values resource- and user-friendly.
 
 # Licensing
 SimpleConfig is licensed under MIT.<br>
