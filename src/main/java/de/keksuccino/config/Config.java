@@ -44,7 +44,7 @@ public class Config {
 		this.config = new File(path);
 		if (this.config.isFile()) {
 			File f = this.config.getParentFile();
-			if (!f.exists()) {
+			if ((f != null) && !f.exists()) {
 				f.mkdirs();
 			}
 		}
