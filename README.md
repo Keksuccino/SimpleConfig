@@ -22,7 +22,7 @@ public static void initConfig() {
 }
 
 public static String getValue() {
-   return config.getOrDefault("another_value", "default value to return when value not found");
+   return config.getOrDefault("another_value", "default value to return if value not found");
 }
 ```
 
