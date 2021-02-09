@@ -20,6 +20,10 @@ public static void initConfig() {
    config.clearUnusedValues();
 
 }
+
+public static String getValue() {
+   return config.getOrDefault("another_value", "default value to return when value not found");
+}
 ```
 
 # Licensing
