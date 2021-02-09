@@ -1,5 +1,5 @@
 //Copyright (c) 2020 Keksuccino
-package de.keksuccino.config;
+package de.keksuccino.konkrete.config;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -17,9 +17,9 @@ import java.util.Map;
 
 import javax.annotation.Nullable;
 
-import de.keksuccino.config.ConfigEntry.EntryType;
-import de.keksuccino.config.exceptions.InvalidValueException;
-import de.keksuccino.math.MathUtils;
+import de.keksuccino.konkrete.config.ConfigEntry.EntryType;
+import de.keksuccino.konkrete.config.exceptions.InvalidValueException;
+import de.keksuccino.konkrete.math.MathUtils;
 
 /**
  * Simple config system to locally store values.<br>
@@ -28,7 +28,7 @@ import de.keksuccino.math.MathUtils;
  * Caches values to prevent reading the config file everytime, which means, values can be called rapidly without stressing the system.
  * 
  * @author Keksuccino
- * @version 0.1.3
+ * @version 0.1.4
  */
 public class Config {
 	
